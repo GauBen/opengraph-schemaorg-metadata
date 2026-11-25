@@ -9,5 +9,4 @@
 | A CND accepts only the selector types of Jahia. | The forms files under `src/main/resources/META-INF/jahia-content-editor-forms/forms/` set the selector types of the module. |
 | The JCR refuses two declarations of one property name on one node. | A mapping node carries one mixin of an og:type and one mixin of a schema.org type at a time. |
 | Jahia calls a property interceptor when a session sets or removes a property, and not when it removes or moves a node. | The permission check of `MappingWriteGuard` covers the values of a mapping, and not its removal. |
-| `@jahia/vite-federation-plugin` 0.2.0 initializes each `window:appShell.remotes.*` container a second time. | `vite.config.ts` adds the runtime plugin `src/javascript/appShellRemotes.ts`, which hands each container to the runtime without its `init`. |
 | The `LICENSE` file is the MIT license of the module. | A source file has no license header. |

@@ -1508,14 +1508,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jahia/vite-federation-plugin@npm:0.2.0":
-  version: 0.2.0
-  resolution: "@jahia/vite-federation-plugin@npm:0.2.0"
+"@jahia/vite-federation-plugin@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@jahia/vite-federation-plugin@npm:0.2.1"
   dependencies:
     "@module-federation/vite": "npm:^1.20.0"
   peerDependencies:
     vite: ^8.2.0
-  checksum: 10c0/08560aa32bd7bd58a4011c02729c77c394ba62703b93ec1f9cd76e63babeba558375bf1b54c7aa0a2a1c3c66165568a2e53a1cf3ef7484381e18cce5ebf7d17c
+  checksum: 10c0/89fb614a3f0c09c6af4bdfde783b858ff1770528fabd8b077a272d83d13a16637438cc05de187b334e5d0eac46564e4f5a08e63e8628f1599b0a80b1b1cfcbb1
   languageName: node
   linkType: hard
 
@@ -4560,7 +4560,7 @@ __metadata:
     "@jahia/eslint-config": "npm:^2.2.0"
     "@jahia/moonstone": "npm:^2.21.1"
     "@jahia/ui-extender": "npm:2.0.0"
-    "@jahia/vite-federation-plugin": "npm:0.2.0"
+    "@jahia/vite-federation-plugin": "npm:0.2.1"
     "@types/react": "npm:~18.3"
     "@types/react-dom": "npm:~18.3"
     "@typescript-eslint/eslint-plugin": "npm:^8.51.0"

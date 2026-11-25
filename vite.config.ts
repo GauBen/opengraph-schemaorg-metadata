@@ -1,4 +1,3 @@
-import { fileURLToPath } from "node:url";
 import { defineConfig } from "vite";
 import jahia from "@jahia/vite-federation-plugin";
 
@@ -12,8 +11,6 @@ export default defineConfig({
         "./init": "./src/javascript/init.tsx",
       },
       dts: false,
-      // The runtime plugins of the jahia plugin come first, so this one decides how the runtime gets a container of the app shell.
-      runtimePlugins: [fileURLToPath(new URL("./src/javascript/appShellRemotes.ts", import.meta.url))],
       // The plugin shares each peerDependency as a singleton of the app shell. The app shell shares these two pooled,
       // and version 0.0.0 makes this remote lose every election against it.
       shared: {
